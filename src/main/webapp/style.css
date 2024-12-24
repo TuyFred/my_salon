@@ -1,0 +1,47 @@
+@charset "UTF-8";
+ .navbar-brand {
+ font-family: 'Brush Script MT', cursive;
+font-size: 1.5rem;
+}
+.navbar-nav .nav-item .nav-link {
+display: flex;
+align-items: center;
+}
+ .navbar-nav .nav-item .nav-link i 
+ {
+ margin-right: 8px;
+ }
+
+
+header {
+    background: url('saloon.jpg') no-repeat center center/cover;
+    color:black;
+}
+
+header .btn {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+header .btn:hover {
+    background-color: #ff3b30;
+    border-color: #ff3b30;
+}
+
+#services i {
+    color: #ff6f61;
+}
+
+#contact form .btn {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+#contact form .btn:hover {
+    background-color: #ff3b30;
+    border-color: #ff3b30;
+}
+
+footer a {
+    margin: 0 10px;
+}
